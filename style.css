@@ -1,0 +1,94 @@
+*{
+    /* reset do css */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+/* 1 rem == 16 px */
+/* 40px == 2,5rem */
+
+:root{
+    --gray-800: #1E293b;
+    --gray-400:#94a3b8;
+    --gray-600: #475569;
+    --purple: #7c3aed;
+    --gray-200: #e2e8f0;
+}
+/* numero = 20*/
+/* print(numero) */
+header{
+    background-image: url(./imagens/img.png);
+    background-size: cover;
+    height:8.375rem ;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 3.7rem;
+}
+
+main{
+    padding-inline: 1.5rem;
+
+}
+.descricao h1{
+    color: var(--gray-800);
+    margin-bottom: 1rem;
+    font-size: 1.5625rem;
+}
+
+.descricao p{
+    font-size: 0.8125;
+    color: var(--gray-600);
+}
+
+.descricao{
+    margin-bottom: 2.5rem;
+}
+
+.login label{
+    font-size: 0.875rem;
+    color: var(--gray-800);
+    font-weight: 600;
+}
+
+.login input{
+    padding: 1rem 0.75rem;
+    border: 1px solid var(--gray-200);
+    border-radius: 0.25rem;
+    color: var(--gray-800);
+}
+
+.login input::placeholder{
+    color: var(--gray-400);
+}
+
+.login input:hover,
+.login input:focus{
+    outline: 1px solid var(--purple);
+}
+
+.inputs-box{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+.inputs-box div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login a {
+    color: var(--purple);
+    text-decoration: none;
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+.login a:hover {
+    text-decoration: underline;
+}
