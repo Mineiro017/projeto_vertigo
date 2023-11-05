@@ -1,4 +1,11 @@
 * {
-    família de fontes: 'Titillium Web', sem serifa;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sem serifa;
 
+}
+
+header {
+    background-image: url(./img.png);
 }
