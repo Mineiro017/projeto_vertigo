@@ -94,3 +94,34 @@ main{
     font-size: 0.875rem;
     font-weight: 600;
 }
+
+.login a:hover {
+    text-decoration: underline;
+}
+.login button{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    padding-block: 1rem;
+    width: 100%;
+    background: var(--purple);
+    border: none;
+    border-radius: 0.25rem;
+
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--white);
+}
+.login > p{
+    color: var(--gray-600);
+}
+
+.login button:hover{
+    background: var(--light-purple);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.login > p a{
+    font-weight: 700;
+    font-size: 1rem;
+}
