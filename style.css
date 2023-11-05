@@ -51,3 +51,21 @@ main{
 .descricao{
     margin-bottom: 2.5rem;
 }
+
+
+.login label{
+    font-size: 0.875rem;
+    color: var(--gray-800);
+    font-weight: 600;
+}
+
+.login input{
+    padding: 1rem 0.75rem;
+    border: 1px solid var(--gray-200);
+    border-radius: 0.25rem;
+    color: var(--gray-800);
+}
+
+.login input::placeholder{
+    color: var(--gray-400);
+}
