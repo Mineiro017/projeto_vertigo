@@ -8,4 +8,15 @@
 
 header {
     background-image: url(./img.png);
+    background-size: cover;
+}
+
+:root{
+    --gray-800: #1E293b;
+    --gray-400:#94a3b8;
+    --gray-600: #475569;
+    --purple: #7c3aed;
+    --gray-200: #e2e8f0;
+    --white: #fff;
+    --light-purple: #9f67ff;
 }
