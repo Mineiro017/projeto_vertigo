@@ -20,3 +20,14 @@ header {
     --white: #fff;
     --light-purple: #9f67ff;
 }
+
+header {
+    background-image: url(./img.png);
+    background-size: cover;
+    height: 8.375rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 3.7rem;
+}
